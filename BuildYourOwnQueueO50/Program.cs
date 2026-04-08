@@ -11,10 +11,11 @@ public class Program //BuildYourOwnQueueO51
         turnQueue.Enqueue("Mage");
         turnQueue.Enqueue("Archer");
 
-        Console.WriteLine(turnQueue.Dequeue());//same command prints 
-        Console.WriteLine(turnQueue.Dequeue());// out 3 different 
-        Console.WriteLine(turnQueue.Dequeue());// things
-	}
+        Console.WriteLine($"{turnQueue.Dequeue()} delivers a jousting stab!");//same command prints 
+        Console.WriteLine($"{turnQueue.Dequeue()} fires multi-shot explosion spell!");// out 3 different 
+        Console.WriteLine($"{turnQueue.Dequeue()} must keep up with the Mage. Fires a volley!");// things
+        Console.WriteLine("All turns completed");
+    }
 }
 
 /* public class SimpleQueue
